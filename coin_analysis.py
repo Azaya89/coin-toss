@@ -39,7 +39,7 @@ def plot_toss(n):
         "Tails": toss.count("tail"),
     }  # Create a dict with the number of 'Heads' and 'Tails'
 
-    x_values = list(frequencies.keys())  # list containing the dict keys (Head and Tail)
+    x_values = list(frequencies.keys())  # List containing the dict keys (Head and Tail)
     frequency = list(
         frequencies.values()
     )  # List containing the count of 'Head' and 'Tail'
